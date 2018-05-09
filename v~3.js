@@ -86,9 +86,7 @@ pq = {
 		var a = $('#submit-button') [0] ? $('#submit-button') :
 				$('.submit-button') [0] ? $('.submit-button') : false;
 		if (a) {
-			a.click ().click ();
-			a.trigger ('click').trigger ('click');
-			a.triggerHandler ('click');//.triggerHandler ('click');
+			// cry at night because clicking doesnt work
 		}
 		setTimeout (pq.input, pq.delay);
 	},
